@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"> -->
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            width: 100%;
+            
+        }
+        .child{
+            background-color:white;
+            height: 430px;
+            width: 350px;
+            border-radius: 10px; 
+        }
+        body{
+            background-color:whitesmoke;
+        }
+        .image{
+            
+        }
+        .rate{
+            background-color: blue;
+            border-radius: 10px;
+            color:white;
+            border-color: white;
+            
+        }
+        .amt{
+            background-color: orange;
+            border-radius: 10px;
+            color:white;
+            border-color: white;
+        }
+        .link{
+            padding-left: 190px;
+            color: dimgray;
+        }
+        
+        .offerbutton{
+            border-radius: 20px;
+            background-color: orange;
+            border-color: white;
+            color: white;
+            padding-top: 7px;
+            padding-left: 45px;
+            padding-right: 45px;
+            padding-bottom: 7px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="child">
+            <div ></div>
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL-8epHmKoqxaqxAlTpaUbKZgX0fNzfWgWyg&usqp=CAU" alt="">
+            </div>
+            <div class="price">
+                <input type="button" value="ASUS Rog" class="rate" >
+                <label for="" style="padding-left: 190px;">12345.00$</label>
+            </div>
+            <div class="description">
+                <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis officia vero sint adipisci. Lorem ipsum dolor sit amet consectetur.</b></p>
+            </div>
+            <div >
+                <center><input type="button" value="CHECK OFFER" class="offerbutton"></center>
+            </div>
+        </div>
+
+        <div class="child">
+            <div ></div>
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpc0MEmdxOrnw6hevyqbQAK3ftoMLr6chFQ&usqp=CAU" alt="">
+            </div>
+            <div class="price">
+                <input type="button" value="12345.00$" class="amt">
+                <a href="" style="padding-left: 190px; color: blue;">Example</a>
+            </div>
+            <div class="description">
+                <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis officia vero sint adipisci. Lorem ipsum dolor sit amet consectetur.</b></p>
+            </div>
+            <div >
+               <center><input type="button" value="CHECK OFFER" class="offerbutton"></center> 
+            </div>
+        </div>
+
+        <div class="child">
+            <div class="batch">
+                <input type="button" value="ASUS Reg" style="background-color: greenyellow; color:darkblue; border-color: white; float: right;">
+            </div>
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL-8epHmKoqxaqxAlTpaUbKZgX0fNzfWgWyg&usqp=CAU" alt="">
+            </div>
+            <div class="price">
+                <input type="button" value="12345.00$" class="amt">
+                <a href="" class="link">Reviews</a>
+            </div>
+            <div class="description">
+                <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis officia vero sint adipisci. Lorem ipsum dolor sit amet consectetur.</b></p>
+            </div>
+            <div >
+                <center><input type="button" value="CHECK OFFER" class="offerbutton"></center>
+            </div>
+        </div>
+        
+        <div class="child">
+            <div class="batch">
+                <input type="button" value="DELL" style="background-color: greenyellow; color: darkblue; border-color: white; float: right;">
+            </div>
+            <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpc0MEmdxOrnw6hevyqbQAK3ftoMLr6chFQ&usqp=CAU" alt="">
+            </div>
+            <div class="price">
+                <label for="">12345.00$</label>
+                <a href="" class="link">Reviews</a>
+            </div>
+            <div class="description">
+                <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis officia vero sint adipisci. Lorem ipsum dolor sit amet consectetur.</b></p>
+            </div>
+            <div >
+                <center><input type="button" value="CHECK OFFER" class="offerbutton"></center>
+            </div>
+        </div>
+        
+
+    </div>
+
+</body>
+</html>
